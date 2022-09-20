@@ -1,0 +1,9 @@
+.card {
+    border: 1px solid #3f3f3f;
+    padding: 12px;
+    width:200px !important;
+   
+  }
+  .rate {
+    margin-left: 12px;
+  }

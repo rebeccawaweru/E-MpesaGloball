@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.box{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/best.jpg') !important;
+}
+.box1{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/uganda1.jpg') !important;
+  background-size: cover !important;
+}
+.box2{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/tanzania1.jpg') !important;
+  background-size: cover !important;
+}
+.box3{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/ghana1.jpg') !important;
+  background-size: cover !important;
+}
+.box4{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/sa1.png') !important;
+  background-size: cover !important;
+}
+.box5{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/nigeria1.png') !important;
+  background-size: cover !important;
+}
+
+
+.boxI{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/kenya2.jpg') !important;
+  background-size: cover !important;
+}
+.boxII{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/uganda2.jpg') !important;
+  background-size: cover !important;
+}
+.boxIII{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/tanzania2.jpg') !important;
+  background-size: cover !important;
+}
+.boxIV{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/ghana2.jpeg') !important;
+  background-size: cover !important;
+}
+.boxV{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/sa2.jpg') !important;
+  background-size: cover !important;
+}
+.boxVI{
+  background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),url('./assets/nigeria2.jpg') !important;
+  background-size: cover !important;
+}
+
+.wrapper {
+  max-width: 100%;
+
+}
+
+.marquee {
+  white-space: nowrap;
+
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+.marquee p {
+  display: flex;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
